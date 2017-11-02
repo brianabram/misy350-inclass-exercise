@@ -32,8 +32,9 @@ function main() {
 
   //show projects by clicking
   $('.project-button').click(function(){
-    $('.projects').show();
-  });
+    $(this)
+    $('.projects').slideToggle(500);
+  })
 
 }
 
